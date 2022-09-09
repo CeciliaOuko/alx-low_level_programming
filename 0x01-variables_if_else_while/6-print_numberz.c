@@ -2,7 +2,7 @@
 
 /**
 
- * main - print if the number is postive, zero, or negative
+ * main - print if the number is positive, zero, or negative
 
  *
 
@@ -31,4 +31,7 @@ for (n = '0'; n <= '9'; n++)
 putchar('\n');
 
 return (0);
+
+}
+
 
