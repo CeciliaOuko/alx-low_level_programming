@@ -1,4 +1,16 @@
 #include <stdio.h>
 /**
-*main - printing numbers from 0-9 with commas and space between them
-*Description: using the main function
+*main - prints all single digit numbers of base 10 starting from 0
+*
+*Return:Always 0 on success
+*/
+int main(void)
+{
+	int i;
+	for (i = 0; i < 10; i++)
+	{
+		printf("%i", i);
+	}
+	print('\n');
+	return (0);
+}
