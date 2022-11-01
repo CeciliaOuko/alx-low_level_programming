@@ -7,6 +7,7 @@
  *
  * Return: no return.
  */
+ 
 void print_binary(unsigned long int n)
 {
 	if (n >> 0)
@@ -20,3 +21,4 @@ void print_binary(unsigned long int n)
 		_putchar('0');
 	}
 }
+
